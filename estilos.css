@@ -1,0 +1,55 @@
+.fondo {
+    background-color:rgb(255, 216, 132);
+}
+
+#titulo{
+    width: fit-content;
+    margin: auto;
+}
+
+#subtitulo{
+    width: fit-content;
+    margin: auto;
+    font-size: 2em;
+    color: rgb(207, 125, 17);
+}
+
+#tituloprincipal{
+    font-size: 4em;
+    color:rgb(104, 64, 4);
+}
+
+.recuadro{
+    width: fit-content;
+    margin: auto;
+}
+
+#mifoto{
+    width: 400px;
+}
+
+h3{
+    background-color: rgb(212, 118, 30);
+    color: beige;
+    font-size: 2em;
+    border: 2px solid rgb(97, 48, 7);
+    border-radius: 5%;
+}
+
+.imgcategorias{
+    width: 300px;
+}
+
+.lista{
+    color: rgba(77, 32, 2, 0.952);
+    font-size: 1em;
+    transition: 1s;
+}
+
+.lista:hover{
+    background-color: rgb(233, 118, 11);
+}
+
+.miTexto {
+    
+}

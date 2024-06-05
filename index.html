@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Mi página web</title>
+        <title>Mi pagina web</title>
+        <link rel="stylesheet" type="text/css" href="./estilos.css" />
     </head>
-    <body>
+    <body class="fondo">
 
         <header> 
-            <h1>Mi pagina web</h1>
-            <p>Mi nombre es Julieta.</p>
-
-            <img src="./IMG_4801_Original.JPG"> 
-        </header> 
+        <div id="titulo">
+            <h1 id="tituloprincipal">Mi página web</h1>
+        </div>
+        
+        <div id="subtitulo">
+            <p>Julieta Asseff</p>
+        </div>   
+        </header>   
+          
+           <div class="recuadro">
+            <img  src="./IMG_4801_Original.JPG" id="mifoto">
+           </div>
+         
 
         <main> 
             <section>
-            <h2>cosas que me gustan...</h2>
+                <div class="recuadro">
+                <h2>Cosas que me gustan...</h2>
 
             <div> 
                 <p>a continuacion describire listados</p>
-                <p>estos listados estaran basados solo en mi</p>
             </div>
+                </div>
 
+                <div class="recuadro">
             <span>hacer</span>
             <span>comer</span>
+                </div>
 
             <hr />
 
             <article> 
+            <div class="recuadro">
                 <h3>hacer:</h3>
+                <img src="HOBBIES.jpg" class="imgcategorias">
     
+                <div class="lista">
                 <ul> 
                     <li>ir al gym</li>
                     <li>dormir</li>
                     <li>comprar ropa</li>
                 </ul>
                 <hr />
+                </div>
+            </div>
             </article>
 
             <article> 
+            <div class="recuadro">
                 <h3>comer:</h3>
+                <img src="COMIDA.avif" class="imgcategorias">
     
+                <div class="lista">
                 <ol> 
                     <li>burritos</li>
                     <li>hamburguesas</li>
-        
                 </ol>
                 <hr />
+                </div>
+            </div>
             </article>
             </section>
         </main>
 
+        <div class="recuadro">
         <footer> 
-            <p>este es el footer y colocare enlaces.</p>
+            <p>Puedes contactarme aquí!</p>
 
            <a href="./contacto.html">formulario de contacto</a>
         </footer>
+        </div>
       
     </body>
 </html>
