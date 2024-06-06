@@ -3,16 +3,14 @@
     <head>
         <title>Mi pagina web</title>
         <link rel="stylesheet" type="text/css" href="./estilos.css" />
+        <link rel="stylesheet" href="reset.css" />
     </head>
     <body class="fondo">
 
         <header> 
         <div id="titulo">
             <h1 id="tituloprincipal">Mi página web</h1>
-        </div>
-        
-        <div id="subtitulo">
-            <p>Julieta Asseff</p>
+            <p id="subtitulo">Julieta Asseff</p>
         </div>   
         </header>   
           
@@ -20,53 +18,48 @@
             <img  src="./IMG_4801_Original.JPG" id="mifoto">
            </div>
          
-
         <main> 
             <section>
                 <div class="recuadro">
                 <h2>Cosas que me gustan...</h2>
-
-            <div> 
                 <p>a continuacion describire listados</p>
-            </div>
                 </div>
 
-                <div class="recuadro">
+                <div class="span">
             <span>hacer</span>
             <span>comer</span>
                 </div>
 
-            <hr />
-
             <article> 
-            <div class="recuadro">
-                <h3>hacer:</h3>
-                <img src="HOBBIES.jpg" class="imgcategorias">
-    
-                <div class="lista">
-                <ul> 
-                    <li>ir al gym</li>
-                    <li>dormir</li>
-                    <li>comprar ropa</li>
-                </ul>
-                <hr />
-                </div>
-            </div>
-            </article>
+                <div class="ambascosas">
 
-            <article> 
-            <div class="recuadro">
-                <h3>comer:</h3>
-                <img src="COMIDA.avif" class="imgcategorias">
+                    <div class="cosa">
+                        <h3>hacer:</h3>
+                        <img src="HOBBIES.jpg" class="imgcategorias">
     
-                <div class="lista">
-                <ol> 
+                    <div class="lista">
+                         <ul> 
+                            <li>ir al gym</li>
+                            <li>dormir</li>
+                            <li>comprar ropa</li>
+                        </ul> 
+                    </div>            
+                    </div>
+                
+                    <div class="cosa">
+                        <h3>comer:</h3>
+                        <img src="COMIDA.avif" class="imgcategorias">
+    
+                    <div class="lista">
+                        <ol> 
                     <li>burritos</li>
                     <li>hamburguesas</li>
-                </ol>
-                <hr />
-                </div>
-            </div>
+                        </ol>
+                        <!-- no aparece la lista -->               
+                    </div>
+                    </div>
+
+                </div>   
             </article>
             </section>
         </main>
@@ -74,8 +67,8 @@
         <div class="recuadro">
         <footer> 
             <p>Puedes contactarme aquí!</p>
-
-           <a href="./contacto.html">formulario de contacto</a>
+            <a href="./contacto.html">formulario de contacto</a>
+        <!-- no hace el gap entre las 2 oraciones -->
         </footer>
         </div>
       
